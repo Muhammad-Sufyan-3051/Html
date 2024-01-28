@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <form action="/action.asp.net">
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <h4>Name</h4>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+
+        <h4>Father Name</h4>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+
+        <h4>Roll No</h4>
+        <input type="text" placeholder="Roll No">
+
+        <h4>Date of Birth</h4>
+        <input type="text" placeholder="DD/MM/YYYY">
+
+        <h4>Email</h4>
+        <input type="text" placeholder="Email Address">
+
+        <h4>Password</h4>
+        <input type="password" placeholder="Password">
+
+        <h4>Gender</h4>
+        <label for="01">
+        <input type="radio" value="Male" name="Gender" id="01">Male
+        </label>
+        
+        <label for="02">
+        <input type="radio" value="Female" name="Gender" id="02">Female
+        </label>
+        <br>
+
+        <h4>Select Your Program</h4>
+        <label for="011">
+        <input type="radio" value="BS" name="Program" id="011">BS
+        </label>
+        <label for="022">
+        <input type="radio" value="MS" name="Program" id="022">MS
+        </label>
+
+        <h4>Select Your Subjects</h4>
+
+        <label for="Programming Fundamentals">
+        <input type="checkbox" value="Programming Fundamentals" name="Subject" id="01">Programming Fundamentals
+        </label>
+        <br><br>
+        <label for="Object Oriented Programming">
+            <input type="checkbox" value="Object Oriented Programming" name="Subject" id="02">Object Oriented Programming
+            </label>
+            <br><br>
+            <label for="Data Structure and Algorithm">
+                <input type="checkbox" value="Data Structure" name="Subject" id="03">Data Structure and Algorithm
+                </label>
+                <br><br>
+                <label for="Operating System">
+                    <input type="checkbox" value="Operating System" name="Subject" id="04">Operating System
+                    </label>
+                    <br><br>
+                    <label for="Software Design">
+                        <input type="checkbox" value="Software Design" name="Subject" id="05">Software Design
+                        </label>
+                        <br>
+
+                        <h4>Select Your City</h4>
+                        <select name="city" id="city">
+                            <option value="Gujranwala">Gujranwala</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="">Faislabad</option>
+                            <option value="Multan">Multan</option>
+                            <option value="Karachi">Karachi</option>
+                        </select>
+                        <br><br>
+                        <textarea name="Feedback" id="101" placeholder="Please provide your valuable feedback here!" rows="4"></textarea>
+                        <br><br>
+                        <input type="submit" id="submit">
+                        <!-- <a href="/Html Full/Thanks.html">Submit</a> -->
+    </main>
+</form>
+</body>
+</html>
